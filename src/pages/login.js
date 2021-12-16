@@ -1,6 +1,6 @@
 import React from 'react'
 
-function login() {
+function Login() {
   return (
     <div className='bg-primary'>
       <div id="layoutAuthentication">
@@ -59,4 +59,4 @@ function login() {
   )
 }
 
-export default login
+export default Login
