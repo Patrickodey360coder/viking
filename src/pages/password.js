@@ -1,6 +1,6 @@
 import React from 'react'
 
-function password() {
+function Password() {
   return (
     <div className='bg-primary'>
       <div id="layoutAuthentication">
@@ -52,4 +52,4 @@ function password() {
   )
 }
 
-export default password
+export default Password

@@ -36,9 +36,9 @@ function SideNav() {
                       </Link>
                       <div className="collapse" id="pagesCollapseAuth" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages">
                         <nav className="sb-sidenav-menu-nested nav">
-                        <Link className="nav-link" to="login.html">Login</Link>
-                        <Link className="nav-link" to="register.html">Register</Link>
-                        <Link className="nav-link" to="password.html">Forgot Password</Link>
+                        <Link className="nav-link" to="/login">Login</Link>
+                        <Link className="nav-link" to="/register">Register</Link>
+                        <Link className="nav-link" to="/password">Forgot Password</Link>
                         </nav>
                       </div>
                       <Link className="nav-link collapsed" to="#" data-bs-toggle="collapse" data-bs-target="#pagesCollapseError" aria-expanded="false" aria-controls="pagesCollapseError">

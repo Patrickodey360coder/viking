@@ -23,7 +23,7 @@ function Error500() {
         </main>
       </div>
       <div id="layoutError_footer">
-        <footer class="py-4 bg-light mt-auto">
+        {/* <footer class="py-4 bg-light mt-auto">
           <div class="container-fluid px-4">
             <div class="d-flex align-items-center justify-content-between small">
               <div class="text-muted">Copyright &copy; Your Website 2021</div>
@@ -34,7 +34,7 @@ function Error500() {
               </div>
             </div>
           </div>
-        </footer>
+        </footer> */}
       </div>
     </div>
   )

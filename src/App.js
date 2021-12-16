@@ -6,11 +6,14 @@ import Main from './components/Main';
 import SideNav from './components/SideNav';
 import Footer from './components/Footer';
 import Register from './pages/Register';
-import Error401 from './pages/401'
+import Login from './pages/Login';
+import Profile from './pages/Profile';
+import Error401 from './pages/401';
 import Error404 from './pages/404';
 import Error500 from './pages/500';
 import Charts from './pages/Chart';
 import Tables from './pages/Tables';
+import Password from './pages/password';
 
 function App() {
   return (
@@ -26,6 +29,9 @@ function App() {
             <Routes>
               <Route path="/" element={ <Main /> } /> 
               <Route path="/register" element={ <Register /> } /> 
+              <Route path="/login" element={ <Login /> } /> 
+              <Route path="/profile" element={ <Profile /> } /> 
+              <Route path="/password" element={ <Password /> } />
               <Route path="/charts" element={ <Charts/> } />
               <Route path="/tables" element={ <Tables/> } />
               <Route path="/401" element={<Error401 />} />

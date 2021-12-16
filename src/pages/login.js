@@ -2,7 +2,7 @@ import React from 'react'
 
 function Login() {
   return (
-    <div className='bg-primary'>
+    <div className='bg-muted'>
       <div id="layoutAuthentication">
         <div id="layoutAuthentication_content">
             <main>

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Register() {
   return (
-    <div className='bg-primary'>
+    <div className=''>
       <div id="layoutAuthentication">
         <div id="layoutAuthentication_content">
             <main>

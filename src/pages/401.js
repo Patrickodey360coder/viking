@@ -13,7 +13,7 @@ function Error401() {
                   <h1 class="display-1">401</h1>
                   <p class="lead">Unauthorized</p>
                   <p>Access to this resource is denied.</p>
-                  <Link to="index.html">
+                  <Link to="/">
                     <i class="fas fa-arrow-left me-1"></i>
                       Return to Dashboard
                   </Link>
@@ -24,7 +24,7 @@ function Error401() {
         </main>
       </div>
       <div id="layoutError_footer">
-        <footer class="py-4 bg-light mt-auto">
+        {/* <footer class="py-4 bg-light mt-auto">
           <div class="container-fluid px-4">
             <div class="d-flex align-items-center justify-content-between small">
               <div class="text-muted">Copyright &copy; Your Website 2021</div>
@@ -35,7 +35,7 @@ function Error401() {
               </div>
             </div>
           </div>
-        </footer>
+        </footer> */}
       </div>
     </div>
   )
