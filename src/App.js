@@ -14,6 +14,11 @@ import Error500 from './pages/500';
 import Charts from './pages/Chart';
 import Tables from './pages/Tables';
 import Password from './pages/Password';
+import Calendar from './pages/Calendar';
+import Forms from './pages/Forms';
+import Gallery from './pages/Gallery';
+import Mailbox from './pages/Mailbox';
+import Elements from './pages/UI_Elements';
 
 function App() {
   return (
@@ -30,7 +35,12 @@ function App() {
               <Route path="/" element={ <Main /> } /> 
               <Route path="/register" element={ <Register /> } /> 
               <Route path="/login" element={ <Login /> } /> 
-              <Route path="/profile" element={ <Profile /> } /> 
+              <Route path="/profile" element={ <Profile /> } />
+              <Route path="/calendar" element={ <Calendar /> } /> 
+              <Route path="/forms" element={ <Forms /> } /> 
+              <Route path="/gallery" element={ <Gallery /> } /> 
+              <Route path="/mailbox" element={ <Mailbox /> } /> 
+              <Route path="/elements" element={ <Elements /> } /> 
               <Route path="/password" element={ <Password /> } />
               <Route path="/charts" element={ <Charts/> } />
               <Route path="/tables" element={ <Tables/> } />

@@ -63,6 +63,22 @@ function SideNav() {
                   <div className="sb-nav-link-icon"><i className="fas fa-table"></i></div>
                   Tables
               </Link>
+              <Link className="nav-link" to="/calendar">
+                  <div className="sb-nav-link-icon"><i className="fas fa-calendar"></i></div>
+                  Calendar
+              </Link>
+              <Link className="nav-link" to="/forms">
+                  <div className="sb-nav-link-icon"><i className="fas sticky-note"></i></div>
+                  Forms
+              </Link>
+              <Link className="nav-link" to="/elements">
+                  <div className="sb-nav-link-icon"><i className="fas clipboard"></i></div>
+                  UI Elements
+              </Link>
+              <Link className="nav-link" to="/mailbox">
+                  <div className="sb-nav-link-icon"><i className="fas envelope"></i></div>
+                  Mail box
+              </Link>
           </div>
       </div>
       <div className="sb-sidenav-footer">
