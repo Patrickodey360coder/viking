@@ -47,9 +47,9 @@ function SideNav() {
                       </Link>
                       <div className="collapse" id="pagesCollapseError" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages">
                         <nav className="sb-sidenav-menu-nested nav">
-                            <Link className="nav-link" to="401.html">401 Page</Link>
-                            <Link className="nav-link" to="404.html">404 Page</Link>
-                            <Link className="nav-link" to="500.html">500 Page</Link>
+                            <Link className="nav-link" to="/401">401 Page</Link>
+                            <Link className="nav-link" to="/404">404 Page</Link>
+                            <Link className="nav-link" to="/500">500 Page</Link>
                         </nav>
                       </div>
                   </nav>
@@ -67,7 +67,7 @@ function SideNav() {
       </div>
       <div className="sb-sidenav-footer">
         <div className="small">Logged in as:</div>
-        Start Bootstrap
+        Patrick
       </div>
     </nav>
   )
