@@ -7,16 +7,16 @@ function SideNav() {
       <div className="sb-sidenav-menu">
           <div className="nav">
               <div className="sb-sidenav-menu-heading">Core</div>
-              <Link className="nav-link" to="index.html">
+              <Link className="nav-link" to="/">
                   <div className="sb-nav-link-icon"><i className="fas fa-tachometer-alt"></i></div>
                   Dashboard
               </Link>
               <div className="sb-sidenav-menu-heading">Interface</div>
-              <Link className="nav-link collapsed" to="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+              {/* <Link className="nav-link collapsed" to="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
                   <div className="sb-nav-link-icon"><i className="fas fa-columns"></i></div>
                   Layouts
                   <div className="sb-sidenav-collapse-arrow"><i className="fas fa-angle-down"></i></div>
-              </Link>
+              </Link> */}
               <div className="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                   <nav className="sb-sidenav-menu-nested nav">
                       <Link className="nav-link" to="layout-static.html">Static Navigation</Link>
@@ -36,9 +36,9 @@ function SideNav() {
                       </Link>
                       <div className="collapse" id="pagesCollapseAuth" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages">
                         <nav className="sb-sidenav-menu-nested nav">
-                        <a className="nav-link" to="login.html">Login</a>
-                        <a className="nav-link" to="register.html">Register</a>
-                        <a className="nav-link" to="password.html">Forgot Password</a>
+                        <Link className="nav-link" to="login.html">Login</Link>
+                        <Link className="nav-link" to="register.html">Register</Link>
+                        <Link className="nav-link" to="password.html">Forgot Password</Link>
                         </nav>
                       </div>
                       <Link className="nav-link collapsed" to="#" data-bs-toggle="collapse" data-bs-target="#pagesCollapseError" aria-expanded="false" aria-controls="pagesCollapseError">
@@ -55,11 +55,11 @@ function SideNav() {
                   </nav>
               </div>
               <div className="sb-sidenav-menu-heading">Addons</div>
-              <Link className="nav-link" to="charts.html">
+              <Link className="nav-link" to="/charts">
                 <div className="sb-nav-link-icon"><i className="fas fa-chart-area"></i></div>
                 Charts
               </Link>
-              <Link className="nav-link" to="tables.html">
+              <Link className="nav-link" to="/tables">
                   <div className="sb-nav-link-icon"><i className="fas fa-table"></i></div>
                   Tables
               </Link>

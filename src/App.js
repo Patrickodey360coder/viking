@@ -7,7 +7,9 @@ import SideNav from './components/SideNav';
 import Footer from './components/Footer';
 import Register from './pages/Register';
 import Error404 from './pages/404';
-import Charts from './pages/Charts';
+import Error404 from './pages/500';
+import Charts from './pages/Chart';
+import Tables from './pages/Tables';
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
               <Route path="/register" element={ <Register /> } /> 
               <Route path="/charts" element={ <Charts/> } />
               <Route path="/tables" element={ <Tables/> } />
+              <Route path="/401" element={<Error401 />}
+              <Route path="/500" element={<Error500 />}
               <Route path="*" element={ <Error404/> } />
             </Routes>
           <Footer />
