@@ -13,7 +13,7 @@ import Error404 from './pages/404';
 import Error500 from './pages/500';
 import Charts from './pages/Chart';
 import Tables from './pages/Tables';
-import Password from './pages/password';
+import Password from './pages/Password';
 
 function App() {
   return (
