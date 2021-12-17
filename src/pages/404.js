@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import img from '../assets/img/error-404-monochrome.svg';
 
 function Error404() {
   return (
@@ -10,7 +11,7 @@ function Error404() {
             <div className="row justify-content-center">
               <div className="col-lg-6">
                 <div className="text-center mt-4">
-                  <img className="mb-4 img-error" src="assets/img/error-404-monochrome.svg" alt="my_image"/>
+                  <img className="mb-4 img-error" src={img} alt="my_image"/>
                   <p className="lead">This requested URL was not found on this server.</p>
                   <Link to="/">
                       <i className="fas fa-arrow-left me-1"></i>

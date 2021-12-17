@@ -28,7 +28,7 @@ function Login() {
                                         </div>
                                         <div className="d-flex align-items-center justify-content-between mt-4 mb-0">
                                             <Link className="small" to="/password">Forgot Password?</Link>
-                                            <Link className="btn btn-primary" to="index.html">Login</Link>
+                                            <Link className="btn btn-primary" to="/login">Login</Link>
                                         </div>
                                     </form>
                                 </div>
@@ -40,20 +40,6 @@ function Login() {
                     </div>
                 </div>
             </main>
-        </div>
-        <div id="layoutAuthentication_footer">
-            <footer className="py-4 bg-light mt-auto">
-                <div className="container-fluid px-4">
-                    <div className="d-flex align-items-center justify-content-between small">
-                        <div className="text-muted">Copyright &copy; Your Website 2021</div>
-                        <div>
-                            <a to="#">Privacy Policy</a>
-                            &middot;
-                            <a to="#">Terms &amp; Conditions</a>
-                        </div>
-                    </div>
-                </div>
-            </footer>
         </div>
       </div>
     </div>
