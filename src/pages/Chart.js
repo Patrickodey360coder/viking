@@ -1,5 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Bars from './Bars'
+// import { Doughnut } from 'react-chartjs-2'
+
 
 function Chart() {
   return (
@@ -22,7 +25,11 @@ function Chart() {
             <i className="fas fa-chart-area me-1"></i>
             Area Chart Example
           </div>
-          <div className="card-body"><canvas id="myAreaChart" width="100%" height="30"></canvas></div>
+          <div className="card-body">
+            {/* <Bars /> */}
+            <canvas id="myChart" width="100%" height="30">
+            </canvas>
+          </div>
           <div className="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
         </div>
         <div className="row">
