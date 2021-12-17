@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/viking/static/css/main.0eb311ba.chunk.css",
-    "main.js": "/viking/static/js/main.1edff4e8.chunk.js",
-    "main.js.map": "/viking/static/js/main.1edff4e8.chunk.js.map",
+    "main.js": "/viking/static/js/main.45e8c484.chunk.js",
+    "main.js.map": "/viking/static/js/main.45e8c484.chunk.js.map",
     "runtime-main.js": "/viking/static/js/runtime-main.ca0c9c7c.js",
     "runtime-main.js.map": "/viking/static/js/runtime-main.ca0c9c7c.js.map",
     "static/js/2.9b6ce2cb.chunk.js": "/viking/static/js/2.9b6ce2cb.chunk.js",
@@ -12,13 +12,13 @@
     "index.html": "/viking/index.html",
     "static/css/main.0eb311ba.chunk.css.map": "/viking/static/css/main.0eb311ba.chunk.css.map",
     "static/js/2.9b6ce2cb.chunk.js.LICENSE.txt": "/viking/static/js/2.9b6ce2cb.chunk.js.LICENSE.txt",
-    "static/js/main.1edff4e8.chunk.js.LICENSE.txt": "/viking/static/js/main.1edff4e8.chunk.js.LICENSE.txt",
+    "static/js/main.45e8c484.chunk.js.LICENSE.txt": "/viking/static/js/main.45e8c484.chunk.js.LICENSE.txt",
     "static/media/error-404-monochrome.a0894fb6.svg": "/viking/static/media/error-404-monochrome.a0894fb6.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.ca0c9c7c.js",
     "static/js/2.9b6ce2cb.chunk.js",
     "static/css/main.0eb311ba.chunk.css",
-    "static/js/main.1edff4e8.chunk.js"
+    "static/js/main.45e8c484.chunk.js"
   ]
 }
