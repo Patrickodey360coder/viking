@@ -36,7 +36,8 @@ function App() {
 
         <div id="layoutSidenav_content">
             <Routes>
-              <Route path="/" element={ <Main /> } /> 
+              <Route path="/" element={ <Main /> } />
+              <Route path="/vikings" element={ <Main /> } />
               <Route path="/register" element={ <Register /> } /> 
               <Route path="/login" element={ <Login /> } /> 
               <Route path="/profile" element={ <Profile /> } />
