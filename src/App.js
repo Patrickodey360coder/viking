@@ -19,6 +19,10 @@ import Forms from './pages/Forms';
 import Gallery from './pages/Gallery';
 import Mailbox from './pages/Mailbox';
 import Elements from './pages/UI_Elements';
+import Documentation from './pages/Documentation';
+import Extras from './pages/Extras';
+import Widgets from './pages/Widgets';
+import Pages from './pages/Pages';
 
 function App() {
   return (
@@ -44,6 +48,10 @@ function App() {
               <Route path="/password" element={ <Password /> } />
               <Route path="/charts" element={ <Charts/> } />
               <Route path="/tables" element={ <Tables/> } />
+              <Route path="/documentation" element={ <Documentation/> } />
+              <Route path="/extras" element={ <Extras/> } />
+              <Route path="/widgets" element={ <Widgets/> } />
+              <Route path="/pages" element={ <Pages/> } />
               <Route path="/401" element={<Error401 />} />
               <Route path="/500" element={<Error500 />} />
               <Route path="*" element={ <Error404/> } />
