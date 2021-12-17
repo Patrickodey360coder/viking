@@ -79,6 +79,10 @@ function SideNav() {
                   <div className="sb-nav-link-icon"><i className="fas fa-envelope"></i></div>
                   Mail box
               </Link>
+              <Link className="nav-link" to="/gallery">
+                  <div className="sb-nav-link-icon"><i className="fas fa-image"></i></div>
+                  Gallery
+              </Link>
           </div>
       </div>
       <div className="sb-sidenav-footer">
