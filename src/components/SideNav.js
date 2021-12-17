@@ -83,19 +83,19 @@ function SideNav() {
                   <div className="sb-nav-link-icon"><i className="fas fa-image"></i></div>
                   Gallery
               </Link>
-              <Link className="nav-link" to="/gallery">
+              <Link className="nav-link" to="/documentation">
                   <div className="sb-nav-link-icon"><i className="fas fa-file"></i></div>
                   Documentation
               </Link>
-              <Link className="nav-link" to="/gallery">
+              <Link className="nav-link" to="/extras">
                   <div className="sb-nav-link-icon"><i className="fas fa-plus-square"></i></div>
                   Extras
               </Link>
-              <Link className="nav-link" to="/gallery">
+              <Link className="nav-link" to="/widgets">
                   <div className="sb-nav-link-icon"><i className="fas fa-th"></i></div>
                   Widgets
               </Link>
-              <Link className="nav-link" to="/gallery">
+              <Link className="nav-link" to="/pages">
                   <div className="sb-nav-link-icon"><i className="fas fa-book"></i></div>
                   Pages
               </Link>
