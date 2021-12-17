@@ -68,7 +68,7 @@ function SideNav() {
                   Calendar
               </Link>
               <Link className="nav-link" to="/forms">
-                  <div className="sb-nav-link-icon"><i className="fas fa-sticky-note"></i></div>
+                  <div className="sb-nav-link-icon"><i className="fas fa-edit"></i></div>
                   Forms
               </Link>
               <Link className="nav-link" to="/elements">
