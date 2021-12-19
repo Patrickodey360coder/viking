@@ -1,7 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import LineChart from '../pages/Line'
 import Doughnut from '../pages/Doughnut';
+import Bars from '../pages/Bars';
+import DataTable from '../pages/DataTables';
 
 function Main() {
   return (
@@ -58,7 +59,7 @@ function Main() {
                     </div>
                     <div className="card-body">
                         {/* <canvas id="myAreaChart" width="100%" height="40"></canvas> */}
-                        <Doughnut />
+                        <Bars />
                     </div>
                 </div>
             </div>
@@ -70,7 +71,7 @@ function Main() {
                     </div>
                     <div className="card-body">
                         {/* <canvas id="myBarChart" width="100%" height="40"></canvas> */}
-                        <LineChart />
+                        <Doughnut />
                     </div>
                 </div>
             </div>
@@ -81,7 +82,8 @@ function Main() {
                 DataTable Example
             </div>
               <div className="card-body">
-                <table id="datatablesSimple">
+              {/* <DataTable /> */}
+                {/* <table id="datatablesSimple">
                     <thead>
                         <tr>
                             <th>Name</th>
@@ -560,7 +562,7 @@ function Main() {
                             <td>$112,000</td>
                         </tr>
                     </tbody>
-                </table>
+                </table> */}
               </div>
           </div>
       </div>
