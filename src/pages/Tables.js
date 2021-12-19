@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import DataTable from './DataTables'
 
 function Tables() {
   return (
-    <DataTable />
+    <>
+        <h1 className='text-bold text-center my-3'>Table</h1>
+        <DataTable />
+    </>
   )
 }
 
