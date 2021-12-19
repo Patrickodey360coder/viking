@@ -1,6 +1,6 @@
 import React from 'react'
 import 'chart.js/auto';
-import { Bar } from 'react-chartjs-2'
+import { Line } from 'react-chartjs-2'
 
 const data = {
   labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
@@ -24,22 +24,26 @@ const options = {
   plugins: {
     title: {
       display: true,
-      text: 'Number of sales'
-    },
+      text: 'Chart.js Line Chart - Logarithmic'
+    }
   },
   scales: {
+    x: {
+      display: true,
+    },
     y: {
-        beginAtZero: true
+      display: true,
+      type: 'logarithmic',
     }
-}
+  }
 }
 
-function Bars() {
+function LineChart() {
   return (
-    <Bar
-    data={data} options={options}
-    />
+    <div style={{width: "800px", margin: "0 auto"}}>
+      <Line data={data} options={options} />
+    </div>
   )
 }
 
-export default Bars
+export default LineChart

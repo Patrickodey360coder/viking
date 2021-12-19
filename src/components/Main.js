@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import LineChart from '../pages/Line'
+import Doughnut from '../pages/Doughnut';
 
 function Main() {
   return (
@@ -54,7 +56,10 @@ function Main() {
                         <i className="fas fa-chart-area me-1"></i>
                         Area Chart Example
                     </div>
-                    <div className="card-body"><canvas id="myAreaChart" width="100%" height="40"></canvas></div>
+                    <div className="card-body">
+                        {/* <canvas id="myAreaChart" width="100%" height="40"></canvas> */}
+                        <Doughnut />
+                    </div>
                 </div>
             </div>
             <div className="col-xl-6">
@@ -63,7 +68,10 @@ function Main() {
                         <i className="fas fa-chart-bar me-1"></i>
                         Bar Chart Example
                     </div>
-                    <div className="card-body"><canvas id="myBarChart" width="100%" height="40"></canvas></div>
+                    <div className="card-body">
+                        {/* <canvas id="myBarChart" width="100%" height="40"></canvas> */}
+                        <LineChart />
+                    </div>
                 </div>
             </div>
           </div>

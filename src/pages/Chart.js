@@ -1,5 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Bars from './Bars'
+import DoughNut from './Doughnut'
+import LineChart from './Line'
 
 function Chart() {
   return (
@@ -23,8 +26,9 @@ function Chart() {
             Area Chart Example
           </div>
           <div className="card-body">
-            <canvas id="myAreaChart" width="100%" height="30">
-            </canvas>
+            {/* <canvas id="myAreaChart" width="100%" height="30">
+            </canvas> */}
+            <LineChart />
           </div>
           <div className="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
         </div>
@@ -35,7 +39,11 @@ function Chart() {
                 <i className="fas fa-chart-bar me-1"></i>
                 Bar Chart Example
               </div>
-              <div className="card-body"><canvas id="myBarChart" width="100%" height="50"></canvas></div>
+              <div className="card-body">
+                {/* <canvas id="myBarChart" width="100%" height="50"></canvas>
+                 */}
+                 <Bars />
+              </div>
               <div className="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
             </div>
           </div>
@@ -45,7 +53,10 @@ function Chart() {
                 <i className="fas fa-chart-pie me-1"></i>
                 Pie Chart Example
               </div>
-              <div className="card-body"><canvas id="myPieChart" width="100%" height="50"></canvas></div>
+              <div className="card-body">
+                {/* <canvas id="myPieChart" width="100%" height="50"></canvas> */}
+                <DoughNut />
+              </div>
               <div className="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
             </div>
           </div>
