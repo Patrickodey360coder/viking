@@ -1,24 +1,29 @@
 {
   "files": {
-    "main.css": "/viking/static/css/main.0eb311ba.chunk.css",
-    "main.js": "/viking/static/js/main.6dcc5172.chunk.js",
-    "main.js.map": "/viking/static/js/main.6dcc5172.chunk.js.map",
-    "runtime-main.js": "/viking/static/js/runtime-main.ca0c9c7c.js",
-    "runtime-main.js.map": "/viking/static/js/runtime-main.ca0c9c7c.js.map",
-    "static/js/2.9b6ce2cb.chunk.js": "/viking/static/js/2.9b6ce2cb.chunk.js",
-    "static/js/2.9b6ce2cb.chunk.js.map": "/viking/static/js/2.9b6ce2cb.chunk.js.map",
-    "static/js/3.8ea536de.chunk.js": "/viking/static/js/3.8ea536de.chunk.js",
-    "static/js/3.8ea536de.chunk.js.map": "/viking/static/js/3.8ea536de.chunk.js.map",
+    "main.css": "/viking/static/css/main.bd211c3a.chunk.css",
+    "main.js": "/viking/static/js/main.065707e6.chunk.js",
+    "main.js.map": "/viking/static/js/main.065707e6.chunk.js.map",
+    "runtime-main.js": "/viking/static/js/runtime-main.0cc521ad.js",
+    "runtime-main.js.map": "/viking/static/js/runtime-main.0cc521ad.js.map",
+    "static/css/2.cf2594cd.chunk.css": "/viking/static/css/2.cf2594cd.chunk.css",
+    "static/js/2.72499097.chunk.js": "/viking/static/js/2.72499097.chunk.js",
+    "static/js/2.72499097.chunk.js.map": "/viking/static/js/2.72499097.chunk.js.map",
+    "static/js/3.6308e7f7.chunk.js": "/viking/static/js/3.6308e7f7.chunk.js",
+    "static/js/3.6308e7f7.chunk.js.map": "/viking/static/js/3.6308e7f7.chunk.js.map",
     "index.html": "/viking/index.html",
-    "static/css/main.0eb311ba.chunk.css.map": "/viking/static/css/main.0eb311ba.chunk.css.map",
-    "static/js/2.9b6ce2cb.chunk.js.LICENSE.txt": "/viking/static/js/2.9b6ce2cb.chunk.js.LICENSE.txt",
-    "static/js/main.6dcc5172.chunk.js.LICENSE.txt": "/viking/static/js/main.6dcc5172.chunk.js.LICENSE.txt",
-    "static/media/error-404-monochrome.a0894fb6.svg": "/viking/static/media/error-404-monochrome.a0894fb6.svg"
+    "static/css/2.cf2594cd.chunk.css.map": "/viking/static/css/2.cf2594cd.chunk.css.map",
+    "static/css/main.bd211c3a.chunk.css.map": "/viking/static/css/main.bd211c3a.chunk.css.map",
+    "static/js/2.72499097.chunk.js.LICENSE.txt": "/viking/static/js/2.72499097.chunk.js.LICENSE.txt",
+    "static/js/main.065707e6.chunk.js.LICENSE.txt": "/viking/static/js/main.065707e6.chunk.js.LICENSE.txt",
+    "static/media/mdb.css": "/viking/static/media/arrow_right.f7c6ac6d.svg",
+    "static/media/error-404-monochrome.a0894fb6.svg": "/viking/static/media/error-404-monochrome.a0894fb6.svg",
+    "static/media/all.min.css": "/viking/static/media/fa-solid-900.eeccf4f6.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.ca0c9c7c.js",
-    "static/js/2.9b6ce2cb.chunk.js",
-    "static/css/main.0eb311ba.chunk.css",
-    "static/js/main.6dcc5172.chunk.js"
+    "static/js/runtime-main.0cc521ad.js",
+    "static/css/2.cf2594cd.chunk.css",
+    "static/js/2.72499097.chunk.js",
+    "static/css/main.bd211c3a.chunk.css",
+    "static/js/main.065707e6.chunk.js"
   ]
 }
